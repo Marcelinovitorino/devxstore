@@ -4,6 +4,8 @@ const cors = require('cors')
 const userRoutes = require('./routes/userRoutes')
 const categoryRoutes = require('./routes/categoryRoutes')
 const productRoutes = require('./routes/productRoutes')
+const LogRocket = require('logrocket')
+LogRocket.init('danvjs/devxstore');
 
 dotenv.config()
 
